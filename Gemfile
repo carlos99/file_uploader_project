@@ -35,6 +35,10 @@ gem 'jbuilder', '~> 2.5'
 
 gem "figaro"
 gem 'shrine', '~> 2.5'
+gem 'aws-sdk'
+gem 'roda'
+gem 'jquery-fileupload-rails'
+gem 'bootstrap-sass'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
