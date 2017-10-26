@@ -1,4 +1,4 @@
-$(document).on("turbolinks:load", function() {
+/* $(document).on("turbolinks:load", function() {
  
    $("[type=file]").fileupload({
      add: function(e, data) {
@@ -55,4 +55,4 @@ $(document).on("turbolinks:load", function() {
      }
    });
  
- });
+ }); */
