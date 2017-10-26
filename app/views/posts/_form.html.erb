@@ -18,17 +18,15 @@
       <%= form.text_area :description, class: 'form-control', rows: '5' %>
     </div>
  
-    <div class="form-group">
+    <div class="form-group stdclass">
       <% if post.image.present?  %>
         <%= image_tag post.image_url %>
       <% end %>
       <%= form.label :image %>
-      <%= form.hidden_field :image, value: form.object.cached_image_data %>
+      <!-- <%= form.hidden_field :image, value: form.object.cached_image_data %> -->
       <%= form.file_field :image %>
       <!-- form.object is more rehusable instead of create the instance variable -->
     </div>
-
-    
 
     <div class="form-group">
       <%= form.submit class: 'btn btn-primary' %>

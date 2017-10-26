@@ -37,6 +37,7 @@ gem "figaro"
 gem 'shrine', '~> 2.5'
 gem 'aws-sdk'
 gem 'roda'
+gem 'jquery-rails'
 gem 'jquery-fileupload-rails'
 gem 'bootstrap-sass'
 
